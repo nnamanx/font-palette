@@ -1,0 +1,153 @@
+/* FONTS */
+/* font-family: 'Doppio One', sans-serif; (heading)*/
+@import url("https://fonts.googleapis.com/css2?family=Doppio+One&display=swap");
+/* font-family: 'Numans', sans-serif; (sub)*/
+@import url("https://fonts.googleapis.com/css2?family=Numans&display=swap");
+/* font-family: 'Prosto One', cursive; (heading) */
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+/* font-family: 'Nunito Sans', sans-serif; (both) */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+/* font-family: 'Rubik', sans-serif; (heading)*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/* font-family: 'Josefin Sans', sans-serif; (sub)*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"); /* VARIABLES */
+
+/* VARIABLES  */
+
+:root {
+  --main-purple: #a66cff;
+  --dark-purple: #9900f0;
+}
+
+/* GENERAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+/* HEADING & SUB-HEADING */
+.headings {
+  margin: 100px;
+  background: var(--main-purple);
+  padding: 100px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  margin: 10px;
+  /* font-family: "Nunito Sans", sans-serif; */
+  /* font-family: 'Prosto One', cursive; */
+  /* font-family: 'Doppio One', sans-serif; */
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+
+.p1 {
+  font-weight: 100;
+  font-family: "Numans", sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+.p2 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* COLOR PALETTE */
+
+h2 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.color-palette {
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.first,
+.second,
+.third {
+  height: 250px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-purple,
+.dark-purple,
+.white,
+.shade1,
+.shade2,
+.dpurple-2,
+.dpurple-3,
+.white-2,
+.white-3 {
+  flex: 33%;
+  width: 100%;
+}
+
+.shade1,
+.dpurple-2,
+.white {
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.shade2,
+.dpurple-3,
+.white-3 {
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+/* MAIN PURPLE */
+.shade1 {
+  background-color: #b380ff;
+}
+.main-purple {
+  background-color: var(--main-purple);
+}
+
+.shade2 {
+  background-color: #a366ff;
+}
+
+/* DARK PURPLE */
+.dpurple-2 {
+  background-color: #a200ff;
+}
+
+.dark-purple {
+  background-color: var(--dark-purple);
+}
+
+.dpurple-3 {
+  background-color: #9100e6;
+}
+
+/* WHITE */
+
+.white {
+  background-color: #fff;
+}
+
+.white-2 {
+  background-color: #f2f2f2;
+}
+
+.white-3 {
+  background-color: #e6e6e6;
+}
